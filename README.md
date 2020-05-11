@@ -21,3 +21,9 @@ Run tests:
 ```bash
 $ pytest tests/
 ```
+
+Run tests in Docker:
+```bash
+$ docker build --tag api-tests-python .
+$ docker run api-tests-python
+```
