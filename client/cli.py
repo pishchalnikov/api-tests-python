@@ -1,5 +1,6 @@
 from .conn import Conn
 from .post import Posts
+from .comment import Comments
 
 
 class APICli:
@@ -12,3 +13,7 @@ class APICli:
     @property
     def posts(self):
         return Posts(self._conn)
+
+    @property
+    def comments(self):
+        return Comments(self._conn)
