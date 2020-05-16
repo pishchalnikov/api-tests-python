@@ -1,8 +1,8 @@
 # api-tests-python
 
-Examples for API Testing with Python
-
 [![CircleCI](https://circleci.com/gh/pishchalnikov/api-tests-python.svg?style=svg)](https://circleci.com/gh/pishchalnikov/api-tests-python)
+
+Examples for API Testing with Python
 
 Requirements:
 * python3.8
